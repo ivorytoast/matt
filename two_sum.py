@@ -55,7 +55,7 @@ class Solution:
         for idx, val in enumerate(nums):
             if val in diffs:
                 print(f"Found the difference {val}")
-                return [idx, diffs[]]
+                return [idx, diffs[val]]
 
 
 if __name__ == '__main__':
